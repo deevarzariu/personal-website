@@ -1,0 +1,24 @@
+.contact-section {
+  text-align: center;
+  padding: 5%;
+}
+
+.contact-section__links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.contact-section__link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #94167f;
+}
+
+@media (max-width: 600px) {
+  .contact-section__links {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

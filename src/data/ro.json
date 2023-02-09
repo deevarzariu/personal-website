@@ -1,0 +1,18 @@
+{
+  "HERO_SECTION": {
+    "INTRODUCTION_START": "Salut, numele meu este Delia.",
+    "INTRODUCTION_END": "Sunt dezvoltator web."  
+  },
+  "ABOUT_SECTION": {
+    "INTRODUCTION": "Salut, numele meu este Delia. Sunt o programatoare frontend interesată să îmi diversific portofoliul către dezvoltare fullstack.",
+    "EXPERIENCE": "Am 3 ani de experiență cu React, timp în care am lucrat cu React Router, Redux, Typescript și multe altele. Totodată am cunoștințe solide de Javascript, pe care intenționez să le folosesc pentru a învăța și alte framework-uri și librării.",
+    "OCCUPATION": "În acest moment lucrez la Globant ca programator frontend. Pe lângă asta, mă concentrez pe studiul limbajului Python."
+  },
+  "PROJECT_SECTION": {
+    "TITLE": "Work in Progress",
+    "SUBTITLE": "Momentan acesta este primul meu proiect individual. Voi aduca proiecte noi curând."
+  },
+  "CONTACT_SECTION": {
+    "TITLE": "Get in Touch"
+  }
+}

@@ -1,0 +1,12 @@
+.projects-section {
+  background-position: center;
+  background-image: url("src/assets/images/gradient.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  text-align: center;
+}

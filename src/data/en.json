@@ -1,0 +1,20 @@
+{
+  "HERO_SECTION": {
+    "INTRODUCTION_START": "Hello, my name is Delia.",
+    "INTRODUCTION_END": "I'm a web developer."  
+  },
+  "ABOUT_SECTION": {
+    "INTRODUCTION": "Hello, my name is Delia. I'm a frontend developer interested in branching out into fullstack development.",
+    "EXPERIENCE": "I have 3 years of experience with React, during which I worked with React Router, Redux, Typescript and more. I also have a strong grasp of Javascript, which I intend to use for learning other libraries and frameworks.",
+    "OCCUPATION": "I am currently working at Globant as a frontend developer. As for learning, I am focusing on Python."
+  },
+  "PROJECT_SECTION": {
+    "TITLE": "Work in Progress",
+    "SUBTITLE": "I will update this website as I start creating other projects"
+  },
+  "CONTACT_SECTION": {
+    "TITLE": "Get in Touch",
+    "CALL_TO_ACTION": "Want to collaborate on a project or know more about me?",
+    "FIND_ME": "Find me on"
+  }
+}
