@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 10px;
   color: white;
   font-size: 1.1rem;
