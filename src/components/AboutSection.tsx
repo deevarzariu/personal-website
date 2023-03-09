@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
 import "src/assets/styles/AboutSection.css";
+import DownloadLink from "./DownloadLink";
 
 function AboutSection() {
   const { t } = useTranslation();
   const INTRODUCTION = t("ABOUT_SECTION.INTRODUCTION");
   const EXPERIENCE = t("ABOUT_SECTION.EXPERIENCE");
-  const OCCUPATION = t("ABOUT_SECTION.OCCUPATION");
+  const PERSONAL = t("ABOUT_SECTION.PERSONAL");
+  const DOWNLOAD = t("ABOUT_SECTION.DOWNLOAD");
 
   return (
     <section className="about-section">
@@ -20,7 +22,8 @@ function AboutSection() {
         <div>
           <h3 className="mb-20">{INTRODUCTION}</h3>
           <h3 className="mb-20">{EXPERIENCE}</h3>
-          <h3>{OCCUPATION}</h3>
+          <h3 className="mb-20">{PERSONAL}</h3>
+          <DownloadLink title={DOWNLOAD} link="files/resume.pdf" />
         </div>
       </div>
     </section>

@@ -5,8 +5,9 @@
   },
   "ABOUT_SECTION": {
     "INTRODUCTION": "Hello, my name is Delia. I'm a frontend developer interested in branching out into fullstack development.",
-    "EXPERIENCE": "I have 3 years of experience with React, during which I worked with React Router, Redux, Typescript and more. I also have a strong grasp of Javascript, which I intend to use for learning other libraries and frameworks.",
-    "OCCUPATION": "I am currently working at Globant as a frontend developer. As for learning, I am focusing on Python."
+    "EXPERIENCE": "I have 3 years of experience as a web dev, predominantly in React and Javascript.",
+    "PERSONAL": "I love coffee, beautiful art, and cats. You can find out more about me in my resume.",
+    "DOWNLOAD": "View Resume"
   },
   "PROJECT_SECTION": {
     "TITLE": "Work in Progress",

@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-// import "@styles/HeroSection.css";
 import "src/assets/styles/HeroSection.css";
 
 function HeroSection() {
