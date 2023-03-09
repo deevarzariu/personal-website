@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
-import "src/assets/styles/AboutSection.css";
 import DownloadLink from "./DownloadLink";
+import Portrait from "../assets/images/my-face2.jpg";
+import "src/assets/styles/AboutSection.css";
 
 function AboutSection() {
   const { t } = useTranslation();
@@ -14,7 +15,7 @@ function AboutSection() {
       <div className="about-section__image-container">
         <img
           alt=""
-          src={require("src/assets/images/my-face2.jpg")}
+          src={Portrait}
           className="about-section__image"
         />
       </div>
