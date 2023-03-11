@@ -1,17 +1,16 @@
 import { useTranslation } from "react-i18next";
+import ProjectList from "./projects/ProjectList";
+import PROJECTS from "src/data/projects.json";
 import "src/assets/styles/ProjectsSection.css";
 
 function ProjectsSection() {
   const { t } = useTranslation();
   const TITLE = t("PROJECT_SECTION.TITLE");
-  const SUBTITLE = t("PROJECT_SECTION.SUBTITLE");
 
   return (
     <section className="projects-section">
-      <div>
-        <h1 className="mb-5">{TITLE}</h1>
-        <h3>{SUBTITLE}</h3>
-      </div>
+      <h1 className="projects-section__title">{TITLE}</h1>
+      <ProjectList projects={PROJECTS} />
     </section>
   );
 }

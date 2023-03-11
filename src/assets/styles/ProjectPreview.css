@@ -1,0 +1,50 @@
+.project-preview {
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.project-preview__image-container {
+  overflow: hidden;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.project-preview__image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-preview__text {
+  color: #000;
+  text-align: center;
+  padding: 10px 20px 20px;
+}
+
+.project-preview__title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.project-preview__description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.project-preview__cta {
+  color: #94167f;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-preview__cta:hover {
+  color: #b21a98;
+}
